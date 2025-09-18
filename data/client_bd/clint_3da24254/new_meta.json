@@ -1,0 +1,75 @@
+{
+    "n": 1,
+    "gap": 0,
+    "folds": 1,
+    "target": "feature_10",
+    "evaluator": "wmape",
+    "time_unit": "month",
+    "random_seed": 52445,
+    "time_groups": [
+        "feature_3",
+        "feature_7"
+    ],
+    "exo_features": [
+        "feature_9",
+        "feature_3",
+        "feature_7"
+    ],
+    "endo_features": [
+        "feature_1",
+        "feature_2",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_8",
+        "feature_10"
+    ],
+    "experiment_id": "686c97b984afbe6e000a88fb",
+    "feature_types": [
+        {
+            "name": "feature_10",
+            "data_type": "double"
+        },
+        {
+            "name": "feature_1",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_2",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_4",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_5",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_6",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_8",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_9",
+            "data_type": "timestamp"
+        },
+        {
+            "name": "feature_3",
+            "data_type": "string"
+        },
+        {
+            "name": "feature_7",
+            "data_type": "string"
+        }
+    ],
+    "training_data": "s3a://autotsf/STANDARD_686c97b984afbe6e000a88fb.csv",
+    "group_by_method": "STANDARD",
+    "date_column_name": "feature_9",
+    "forecast_horizon": 1,
+    "derivation_window": 12
+}

@@ -1,0 +1,56 @@
+﻿{
+  "target": "feature_7",
+  "problem_type": "regression",
+  "datetime_column": "feature_1",
+  "forecast_horizon": 6,
+  "gap": 0,
+  "holdout_percentage": 0,
+  "validation_percentage": 0.1,
+  "n_fold": 2,
+  "seed": 7777,
+  "groupby_method": "sum",
+  "time_unit": "month",
+  "time_groups": [
+    "feature_2",
+    "feature_3"
+  ],
+  "evaluator": "wmape",
+  "max_iteration": 10,
+  "error_tolerance": 3,
+  "endogenous_features": [],
+  "exogenous_features": [
+    "feature_4",
+    "feature_5",
+    "feature_6"
+  ],
+  "feature_types": [
+    {
+      "id": "feature_1",
+      "data_type": "datetime"
+    },
+    {
+      "id": "feature_2",
+      "data_type": "categorical"
+    },
+    {
+      "id": "feature_3",
+      "data_type": "categorical"
+    },
+    {
+      "id": "feature_4",
+      "data_type": "categorical"
+    },
+    {
+      "id": "feature_5",
+      "data_type": "categorical"
+    },
+    {
+      "id": "feature_6",
+      "data_type": "categorical"
+    },
+    {
+      "id": "feature_7",
+      "data_type": "numerical"
+    }
+  ]
+}
